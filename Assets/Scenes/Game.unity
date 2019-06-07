@@ -2482,6 +2482,7 @@ MonoBehaviour:
   totalTime: 2
   gvrTimer: 0
   objectToInteract: {fileID: 313979731}
+  SceneSelect: 
 --- !u!114 &1092299450
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3904,6 +3905,7 @@ MonoBehaviour:
   totalTime: 2
   gvrTimer: 0
   objectToInteract: {fileID: 313979731}
+  SceneSelect: 
 --- !u!114 &1754379502
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4953,6 +4955,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0.001
       objectReference: {fileID: 0}
+    - target: {fileID: 3476428835830193039, guid: 244e2c81637493c43af90a5c7988def7,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 244e2c81637493c43af90a5c7988def7, type: 3}
 --- !u!64 &7593112648052242364
@@ -5095,6 +5102,7 @@ MonoBehaviour:
   totalTime: 2
   gvrTimer: 0
   objectToInteract: {fileID: 7602298046076691452}
+  SceneSelect: 
 --- !u!1 &7602308731350041872
 GameObject:
   m_ObjectHideFlags: 0
@@ -5205,8 +5213,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7602500104047678262}
   m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071067}
-  m_LocalPosition: {x: 0.05, y: -0.05, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0.01, y: 0.05, z: -0}
+  m_LocalScale: {x: 0.96183, y: 1, z: 0.92875}
   m_Children: []
   m_Father: {fileID: 7608416598225324880}
   m_RootOrder: 2

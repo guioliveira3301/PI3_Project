@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class MainScript : MonoBehaviour
 {
@@ -12,6 +13,15 @@ public class MainScript : MonoBehaviour
     bool gvrStatus;
     public float gvrTimer;
     public GameObject objectToInteract;
+    public string SceneSelect;
+
+
+
+
+public void SceneChanger()
+{
+    SceneManager.LoadScene(SceneSelect);
+}
 
 public void GvrOn()
 {
