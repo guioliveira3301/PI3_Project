@@ -43,7 +43,7 @@ public class GvrReticlePointer : GvrBasePointer
     public int reticleSegments = 20;
 
     /// Growth speed multiplier for the reticle/
-    public float reticleGrowthSpeed = 8.0f;
+    public float reticleGrowthSpeed = 10.0f;
 
     /// Sorting order to use for the reticle's renderer.
     /// Range values come from https://docs.unity3d.com/ScriptReference/Renderer-sortingOrder.html.

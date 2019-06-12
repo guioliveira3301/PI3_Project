@@ -460,6 +460,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76a88f4737ddf402581585cab435dfcf, type: 3}
+--- !u!20 &302011026 stripped
+Camera:
+  m_CorrespondingSourceObject: {fileID: 3476428835404284654, guid: 244e2c81637493c43af90a5c7988def7,
+    type: 3}
+  m_PrefabInstance: {fileID: 394358713}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &351903361
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -537,6 +543,36 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 3476428835873264851, guid: 244e2c81637493c43af90a5c7988def7,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3476428835873264851, guid: 244e2c81637493c43af90a5c7988def7,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 0.04171858
+      objectReference: {fileID: 0}
+    - target: {fileID: 3476428835873264851, guid: 244e2c81637493c43af90a5c7988def7,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3476428835873264851, guid: 244e2c81637493c43af90a5c7988def7,
+        type: 3}
+      propertyPath: m_FillAmount
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3476428835873264851, guid: 244e2c81637493c43af90a5c7988def7,
+        type: 3}
+      propertyPath: m_FillMethod
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3476428835873264851, guid: 244e2c81637493c43af90a5c7988def7,
+        type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 2100000, guid: 2a2859baeeec7e14785299ea50011ea5, type: 2}
     - target: {fileID: 3476428834701216241, guid: 244e2c81637493c43af90a5c7988def7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -597,6 +633,51 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3476428835873264850, guid: 244e2c81637493c43af90a5c7988def7,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.000000024784
+      objectReference: {fileID: 0}
+    - target: {fileID: 3476428835873264850, guid: 244e2c81637493c43af90a5c7988def7,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.209977
+      objectReference: {fileID: 0}
+    - target: {fileID: 3476428835873264850, guid: 244e2c81637493c43af90a5c7988def7,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.209977
+      objectReference: {fileID: 0}
+    - target: {fileID: 3476428835873264850, guid: 244e2c81637493c43af90a5c7988def7,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.209977
+      objectReference: {fileID: 0}
+    - target: {fileID: 3476428835873264850, guid: 244e2c81637493c43af90a5c7988def7,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3476428835873264850, guid: 244e2c81637493c43af90a5c7988def7,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3476428835830193038, guid: 244e2c81637493c43af90a5c7988def7,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3476428835830193038, guid: 244e2c81637493c43af90a5c7988def7,
+        type: 3}
+      propertyPath: m_RenderMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3476428835830193038, guid: 244e2c81637493c43af90a5c7988def7,
+        type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 302011026}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 244e2c81637493c43af90a5c7988def7, type: 3}
 --- !u!1 &499650199
@@ -1238,10 +1319,10 @@ Light:
   m_CookieSize: 10
   m_Shadows:
     m_Type: 2
-    m_Resolution: -1
+    m_Resolution: 3
     m_CustomResolution: -1
     m_Strength: 1
-    m_Bias: 0.05
+    m_Bias: 0
     m_NormalBias: 0.4
     m_NearPlane: 0.2
   m_Cookie: {fileID: 0}
