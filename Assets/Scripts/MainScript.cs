@@ -13,15 +13,27 @@ public class MainScript : MonoBehaviour
     bool gvrStatus;
     public float gvrTimer;
     public GameObject objectToInteract;
-    public GameObject Apagar;
+    public GameObject Tutorial1;
+    public GameObject Tutorial2;
+    public GameObject ChamarFuncionario;
     public string SceneSelect;
 
 
+public void MetodoTutorial()
+{
+    Tutorial1.SetActive(false);
+    Tutorial2.SetActive(true);
 
-public void ApagarTuto()
-    {
-        Apagar.SetActive(false);
-    }
+}
+public void MetodoTutorial2()
+{
+    Tutorial2.SetActive(false);
+    ChamarFuncionario.SetActive(true);
+}
+public void MetodoTutorialFinal()
+{
+    ChamarFuncionario.SetActive(false);
+}
 public void SceneChanger()
 {
     SceneManager.LoadScene(SceneSelect);
