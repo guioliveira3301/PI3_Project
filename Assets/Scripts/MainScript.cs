@@ -13,6 +13,8 @@ public class MainScript : MonoBehaviour
     bool gvrStatus;
     public float gvrTimer;
     public GameObject objectToInteract;
+    public GameObject objectToInteract2;
+    public GameObject objectToInteract3;
     public string SceneSelect;
 
 
@@ -46,7 +48,7 @@ public void Output()
     gvrTimer = 0;
     cdCircle.fillAmount = 0;
 }
-    // Update is called once per frame
+    
     void Update()
     {
         if(gvrStatus)
