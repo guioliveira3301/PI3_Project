@@ -13,13 +13,15 @@ public class MainScript : MonoBehaviour
     bool gvrStatus;
     public float gvrTimer;
     public GameObject objectToInteract;
-    public GameObject objectToInteract2;
-    public GameObject objectToInteract3;
+    public GameObject Apagar;
     public string SceneSelect;
 
 
 
-
+public void ApagarTuto()
+    {
+        Apagar.SetActive(false);
+    }
 public void SceneChanger()
 {
     SceneManager.LoadScene(SceneSelect);
