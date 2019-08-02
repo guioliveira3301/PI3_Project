@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.45016772, g: 0.5002052, b: 0.575418, a: 1}
+  m_IndirectSpecularColor: {r: 0.45016748, g: 0.50020516, b: 0.5754175, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -248,6 +248,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1355083352623960, guid: d361bf901c1dd4500a345d46430c1051, type: 3}
+      propertyPath: m_Name
+      value: Wall_2_X2 (1)
+      objectReference: {fileID: 0}
     - target: {fileID: 4496282333651624, guid: d361bf901c1dd4500a345d46430c1051, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.09
@@ -299,10 +303,6 @@ PrefabInstance:
     - target: {fileID: 4496282333651624, guid: d361bf901c1dd4500a345d46430c1051, type: 3}
       propertyPath: m_LocalScale.z
       value: 1.4069
-      objectReference: {fileID: 0}
-    - target: {fileID: 1355083352623960, guid: d361bf901c1dd4500a345d46430c1051, type: 3}
-      propertyPath: m_Name
-      value: Wall_2_X2 (1)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d361bf901c1dd4500a345d46430c1051, type: 3}
@@ -609,8 +609,9 @@ MonoBehaviour:
   totalTime: 2
   gvrTimer: 0
   objectToInteract: {fileID: 0}
-  objectToInteract2: {fileID: 0}
-  objectToInteract3: {fileID: 0}
+  Tutorial1: {fileID: 0}
+  Tutorial2: {fileID: 0}
+  ChamarFuncionario: {fileID: 0}
   SceneSelect: Credits
 --- !u!1001 &259782450
 PrefabInstance:
@@ -619,6 +620,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1859193472622110, guid: 76a88f4737ddf402581585cab435dfcf, type: 3}
+      propertyPath: m_Name
+      value: Wall_2_Window (1)
+      objectReference: {fileID: 0}
     - target: {fileID: 4168170364364102, guid: 76a88f4737ddf402581585cab435dfcf, type: 3}
       propertyPath: m_LocalPosition.x
       value: -5.184
@@ -671,10 +676,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1.4069
       objectReference: {fileID: 0}
-    - target: {fileID: 1859193472622110, guid: 76a88f4737ddf402581585cab435dfcf, type: 3}
-      propertyPath: m_Name
-      value: Wall_2_Window (1)
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76a88f4737ddf402581585cab435dfcf, type: 3}
 --- !u!20 &302011026 stripped
@@ -690,6 +691,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1239652411904812, guid: fc377209f1408400d9a446fdfc31a123, type: 3}
+      propertyPath: m_Name
+      value: WindowGlass_001 (1)
+      objectReference: {fileID: 0}
     - target: {fileID: 4655708833431896, guid: fc377209f1408400d9a446fdfc31a123, type: 3}
       propertyPath: m_LocalPosition.x
       value: -5.11
@@ -741,10 +746,6 @@ PrefabInstance:
     - target: {fileID: 4655708833431896, guid: fc377209f1408400d9a446fdfc31a123, type: 3}
       propertyPath: m_LocalScale.z
       value: 1.444831
-      objectReference: {fileID: 0}
-    - target: {fileID: 1239652411904812, guid: fc377209f1408400d9a446fdfc31a123, type: 3}
-      propertyPath: m_Name
-      value: WindowGlass_001 (1)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fc377209f1408400d9a446fdfc31a123, type: 3}
@@ -1178,8 +1179,9 @@ MonoBehaviour:
   totalTime: 2
   gvrTimer: 0
   objectToInteract: {fileID: 0}
-  objectToInteract2: {fileID: 0}
-  objectToInteract3: {fileID: 0}
+  Tutorial1: {fileID: 0}
+  Tutorial2: {fileID: 0}
+  ChamarFuncionario: {fileID: 0}
   SceneSelect: Main Game
 --- !u!1001 &1006314909
 PrefabInstance:
@@ -1188,6 +1190,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1859193472622110, guid: 76a88f4737ddf402581585cab435dfcf, type: 3}
+      propertyPath: m_Name
+      value: Wall_2_Window
+      objectReference: {fileID: 0}
     - target: {fileID: 4168170364364102, guid: 76a88f4737ddf402581585cab435dfcf, type: 3}
       propertyPath: m_LocalPosition.x
       value: 4.81
@@ -1240,10 +1246,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1.4069
       objectReference: {fileID: 0}
-    - target: {fileID: 1859193472622110, guid: 76a88f4737ddf402581585cab435dfcf, type: 3}
-      propertyPath: m_Name
-      value: Wall_2_Window
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76a88f4737ddf402581585cab435dfcf, type: 3}
 --- !u!1001 &1077423195
@@ -1253,6 +1255,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1295273866393966, guid: 3e16400c224be49f9b3093e2f593b35b, type: 3}
+      propertyPath: m_Name
+      value: Console_001
+      objectReference: {fileID: 0}
     - target: {fileID: 4263594592782548, guid: 3e16400c224be49f9b3093e2f593b35b, type: 3}
       propertyPath: m_LocalPosition.x
       value: 2.421
@@ -1309,10 +1315,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.9048094
       objectReference: {fileID: 0}
-    - target: {fileID: 1295273866393966, guid: 3e16400c224be49f9b3093e2f593b35b, type: 3}
-      propertyPath: m_Name
-      value: Console_001
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3e16400c224be49f9b3093e2f593b35b, type: 3}
 --- !u!1001 &1186557911
@@ -1322,6 +1324,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1239652411904812, guid: fc377209f1408400d9a446fdfc31a123, type: 3}
+      propertyPath: m_Name
+      value: WindowGlass_001
+      objectReference: {fileID: 0}
     - target: {fileID: 4655708833431896, guid: fc377209f1408400d9a446fdfc31a123, type: 3}
       propertyPath: m_LocalPosition.x
       value: 4.738
@@ -1374,10 +1380,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1.444831
       objectReference: {fileID: 0}
-    - target: {fileID: 1239652411904812, guid: fc377209f1408400d9a446fdfc31a123, type: 3}
-      propertyPath: m_Name
-      value: WindowGlass_001
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fc377209f1408400d9a446fdfc31a123, type: 3}
 --- !u!1001 &1239566826
@@ -1387,6 +1389,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1979544736827636, guid: eaf00e58f8a484c37bef75eb300e4645, type: 3}
+      propertyPath: m_Name
+      value: Floor_001
+      objectReference: {fileID: 0}
     - target: {fileID: 4715545187306412, guid: eaf00e58f8a484c37bef75eb300e4645, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.00000043231
@@ -1442,10 +1448,6 @@ PrefabInstance:
     - target: {fileID: 4715545187306412, guid: eaf00e58f8a484c37bef75eb300e4645, type: 3}
       propertyPath: m_LocalScale.z
       value: -10.088884
-      objectReference: {fileID: 0}
-    - target: {fileID: 1979544736827636, guid: eaf00e58f8a484c37bef75eb300e4645, type: 3}
-      propertyPath: m_Name
-      value: Floor_001
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: eaf00e58f8a484c37bef75eb300e4645, type: 3}
@@ -1535,6 +1537,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 177758, guid: 970dd4b9371394fb4890965f608d46fd, type: 3}
+      propertyPath: m_Name
+      value: GvrEditorEmulator
+      objectReference: {fileID: 0}
     - target: {fileID: 498412, guid: 970dd4b9371394fb4890965f608d46fd, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -1578,10 +1584,6 @@ PrefabInstance:
     - target: {fileID: 498412, guid: 970dd4b9371394fb4890965f608d46fd, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 177758, guid: 970dd4b9371394fb4890965f608d46fd, type: 3}
-      propertyPath: m_Name
-      value: GvrEditorEmulator
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 970dd4b9371394fb4890965f608d46fd, type: 3}
@@ -1683,6 +1685,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1979544736827636, guid: eaf00e58f8a484c37bef75eb300e4645, type: 3}
+      propertyPath: m_Name
+      value: Floor_001 (1)
+      objectReference: {fileID: 0}
     - target: {fileID: 4715545187306412, guid: eaf00e58f8a484c37bef75eb300e4645, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0
@@ -1739,10 +1745,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: -10.088884
       objectReference: {fileID: 0}
-    - target: {fileID: 1979544736827636, guid: eaf00e58f8a484c37bef75eb300e4645, type: 3}
-      propertyPath: m_Name
-      value: Floor_001 (1)
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: eaf00e58f8a484c37bef75eb300e4645, type: 3}
 --- !u!1001 &1510453326
@@ -1752,6 +1754,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 761381335, guid: 463285ecd6702471a909ba810832bf0e, type: 3}
+      propertyPath: m_Name
+      value: GvrEventSystem
+      objectReference: {fileID: 0}
     - target: {fileID: 766346198, guid: 463285ecd6702471a909ba810832bf0e, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -1795,10 +1801,6 @@ PrefabInstance:
     - target: {fileID: 766346198, guid: 463285ecd6702471a909ba810832bf0e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 761381335, guid: 463285ecd6702471a909ba810832bf0e, type: 3}
-      propertyPath: m_Name
-      value: GvrEventSystem
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 463285ecd6702471a909ba810832bf0e, type: 3}
@@ -1902,6 +1904,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1355083352623960, guid: d361bf901c1dd4500a345d46430c1051, type: 3}
+      propertyPath: m_Name
+      value: Wall_2_X2
+      objectReference: {fileID: 0}
     - target: {fileID: 4496282333651624, guid: d361bf901c1dd4500a345d46430c1051, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.09
@@ -1953,10 +1959,6 @@ PrefabInstance:
     - target: {fileID: 4496282333651624, guid: d361bf901c1dd4500a345d46430c1051, type: 3}
       propertyPath: m_LocalScale.z
       value: 1.4069
-      objectReference: {fileID: 0}
-    - target: {fileID: 1355083352623960, guid: d361bf901c1dd4500a345d46430c1051, type: 3}
-      propertyPath: m_Name
-      value: Wall_2_X2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d361bf901c1dd4500a345d46430c1051, type: 3}
